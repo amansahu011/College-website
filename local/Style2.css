@@ -1,0 +1,29 @@
+body {
+    background: url('image/hospital3.avif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* White background for input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    background-color: white !important;
+    color: white!important;
+    border: 1px solid #ced4da;
+  }
+  h4 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* halka dark background for readability */
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  label {
+    color: black;
+    font-weight: 500;
+  }
+  
